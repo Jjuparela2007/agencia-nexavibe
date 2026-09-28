@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Nexavibe — Estudio de diseño y desarrollo web</title>
-<meta name="description" content="Nexavibe diseña y desarrolla sitios web, tiendas online y marketing digital. Trabajo a medida, precios claros." />
+<meta name="description" content="Nexavibe diseña y desarrolla sitios web, tiendas online y marketing digital. Trabajo a medida, cotización personalizada." />
 
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
@@ -322,7 +322,7 @@ footer{padding:56px 0 40px}
       <a href="#contacto" class="btn-primary" data-i18n="hero.cta1">Empezar proyecto
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 13L13 3M13 3H6M13 3V10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </a>
-      <a href="#servicios" class="btn-ghost" data-i18n="hero.cta2">Ver servicios y precios</a>
+      <a href="#servicios" class="btn-ghost" data-i18n="hero.cta2">Ver servicios</a>
     </div>
     <div class="hero-meta reveal">
       <div class="stat"><div class="n serif" data-count="20" data-suffix="+">0</div><div class="l" data-i18n="hero.s1">Proyectos entregados</div></div>
@@ -358,9 +358,9 @@ footer{padding:56px 0 40px}
 <section id="servicios">
   <div class="wrap">
     <div class="sec-head reveal">
-      <div class="sec-eyebrow" data-i18n="svc.eyebrow">Servicios &amp; precios</div>
-      <h2 class="sec-title" data-i18n="svc.title">Precios claros, sin sorpresas.</h2>
-      <p class="sec-desc" data-i18n="svc.desc">Toca cualquier servicio para ver qué incluye. Cada precio es punto de partida; el costo final depende del alcance, pero siempre lo sabrás antes de empezar.</p>
+      <div class="sec-eyebrow" data-i18n="svc.eyebrow">Servicios</div>
+      <h2 class="sec-title" data-i18n="svc.title">Cada proyecto, cotizado a tu medida.</h2>
+      <p class="sec-desc" data-i18n="svc.desc">Toca cualquier servicio para ver qué incluye. Cada proyecto se cotiza según su alcance, y siempre sabrás el costo antes de empezar.</p>
     </div>
     <div class="index-list reveal" id="svcList"></div>
   </div>
@@ -495,12 +495,12 @@ const I18N={
     "hero.eyebrow":"Estudio de diseño & desarrollo web",
     "hero.title":"Construimos la web que tu negocio <em>merece.</em>",
     "hero.sub":"Sitios a medida, tiendas online y marketing digital. Sin plantillas genéricas: cada proyecto se diseña y se programa desde cero para vender más.",
-    "hero.cta1":"Empezar proyecto","hero.cta2":"Ver servicios y precios",
+    "hero.cta1":"Empezar proyecto","hero.cta2":"Ver servicios",
     "hero.s1":"Proyectos entregados","hero.s2":"Código a medida","hero.s3":"Respuesta a tu propuesta",
     "why.eyebrow":"Por qué elegirnos",
     "why.title":"Construimos para que vendas, no solo para que se vea bien.",
-    "svc.eyebrow":"Servicios & precios","svc.title":"Precios claros, sin sorpresas.",
-    "svc.desc":"Toca cualquier servicio para ver qué incluye. Cada precio es punto de partida; el costo final depende del alcance, pero siempre lo sabrás antes de empezar.",
+    "svc.eyebrow":"Servicios","svc.title":"Cada proyecto, cotizado a tu medida.",
+    "svc.desc":"Toca cualquier servicio para ver qué incluye. Cada proyecto se cotiza según su alcance, y siempre sabrás el costo antes de empezar.",
     "work.eyebrow":"Trabajo seleccionado","work.title":"Cuatro proyectos, cuatro retos distintos.",
     "proc.eyebrow":"Cómo trabajamos","proc.title":"Un proceso simple y transparente.",
     "faq.eyebrow":"Preguntas frecuentes","faq.title":"Todo lo que necesitas saber antes de empezar.",
@@ -516,12 +516,12 @@ const I18N={
     "hero.eyebrow":"Web design & development studio",
     "hero.title":"We build the website your business <em>deserves.</em>",
     "hero.sub":"Custom sites, online stores and digital marketing. No generic templates — every project is designed and coded from scratch to sell more.",
-    "hero.cta1":"Start a project","hero.cta2":"See services & pricing",
+    "hero.cta1":"Start a project","hero.cta2":"See services",
     "hero.s1":"Projects delivered","hero.s2":"Custom-coded","hero.s3":"Reply to your proposal",
     "why.eyebrow":"Why choose us",
     "why.title":"We build so you sell, not just so it looks good.",
-    "svc.eyebrow":"Services & pricing","svc.title":"Clear pricing, no surprises.",
-    "svc.desc":"Tap any service to see what's included. Every price is a starting point; the final cost depends on scope, but you'll always know it before we begin.",
+    "svc.eyebrow":"Services","svc.title":"Every project, quoted to fit you.",
+    "svc.desc":"Tap any service to see what's included. Every project is quoted based on its scope, and you'll always know the cost before we begin.",
     "work.eyebrow":"Selected work","work.title":"Four projects, four different challenges.",
     "proc.eyebrow":"How we work","proc.title":"A simple, transparent process.",
     "faq.eyebrow":"FAQ","faq.title":"Everything you need to know before getting started.",
@@ -549,15 +549,15 @@ const STATS=[
 ];
 
 const SERVICES=[
-  {tag:"Web",price:300,es:["Landing Page","Una página de alto impacto para presentar un producto, servicio o evento. Diseño a medida y formulario de contacto.",["Diseño 100% a medida, no plantillas","Formulario de contacto / WhatsApp","Optimizada para móvil","Lista para anuncios y campañas"]],en:["Landing Page","A high-impact single page to present a product, service or event. Custom design and contact form.",["100% custom design, no templates","Contact / WhatsApp form","Mobile-optimized","Ad & campaign ready"]]},
-  {tag:"Web",price:500,es:["Sitio Corporativo","Web multipágina (inicio, servicios, nosotros, contacto). Ideal para empresas que quieren presencia profesional.",["Hasta 5–6 páginas","Diseño corporativo a medida","Secciones de servicios y equipo","Mapa, contacto y redes","SEO básico incluido"]],en:["Corporate Website","Multi-page site (home, services, about, contact). Ideal for businesses wanting a professional presence.",["Up to 5–6 pages","Custom corporate design","Services and team sections","Map, contact and social","Basic SEO included"]]},
-  {tag:"Web",price:450,es:["Blog / Portafolio","Espacio para publicar contenido o mostrar tu trabajo, con gestor de entradas y diseño editorial cuidado.",["Gestor de publicaciones","Diseño editorial a medida","Galería de proyectos","Categorías y búsqueda","Optimizado para compartir"]],en:["Blog / Portfolio","A space to publish content or showcase your work, with a post manager and refined editorial design.",["Post manager","Custom editorial design","Project gallery","Categories and search","Share-optimized"]]},
-  {tag:"E-commerce",price:800,es:["Tienda Online","E-commerce completo con catálogo, carrito, pasarela de pago y panel de administración.",["Catálogo de productos","Carrito y checkout","Pasarela de pago integrada","Panel de administración","Gestión de pedidos e inventario"]],en:["Online Store","Full e-commerce with catalog, cart, payment gateway and admin panel.",["Product catalog","Cart and checkout","Integrated payment gateway","Admin dashboard","Order & inventory management"]]},
-  {tag:"Reservas",price:650,es:["Sistema de Reservas / Citas","Web con agenda en línea: reservas, calendario, recordatorios y panel para tu negocio.",["Agenda y calendario online","Reserva de citas 24/7","Recordatorios automáticos","Panel para administrar citas","Ideal para spa, barbería, clínica"]],en:["Booking / Appointments","Site with online scheduling: booking, calendar, reminders and a dashboard for your business.",["Online agenda & calendar","24/7 appointment booking","Automatic reminders","Appointment admin panel","Great for spa, barber, clinic"]]},
-  {tag:"App",price:1200,es:["Aplicación Web / PWA","Software a medida instalable: dashboards, gestión de clientes, inventario o procesos internos.",["Software a medida","Instalable (PWA)","Dashboards y reportes","Gestión de usuarios y roles","Funciona offline / móvil"]],en:["Web App / PWA","Custom installable software: dashboards, client management, inventory or internal processes.",["Custom-built software","Installable (PWA)","Dashboards and reports","User & role management","Works offline / mobile"]]},
-  {tag:"Marketing",price:250,es:["Manejo de Redes Sociales","Plan mensual de contenido, diseño de publicaciones, calendario y reportes.",["Plan mensual de contenido","Diseño de publicaciones","Calendario de publicación","Reportes de resultados","Respuesta a comentarios"]],en:["Social Media Management","Monthly content plan, post design, calendar and reports.",["Monthly content plan","Post design","Publishing calendar","Performance reports","Comment management"]]},
-  {tag:"Video",price:120,es:["Edición & Creación de Video","Reels, anuncios y videos para redes: edición, subtítulos, motion graphics y formato por plataforma.",["Edición de reels y anuncios","Subtítulos automáticos","Motion graphics","Formato por plataforma","Música y efectos"]],en:["Video Editing & Production","Reels, ads and social videos: editing, captions, motion graphics and per-platform formats.",["Reel & ad editing","Auto captions","Motion graphics","Per-platform formats","Music and effects"]]},
-  {tag:"Branding",price:200,es:["Identidad de Marca","Logo, paleta, tipografía y guía de marca para que tu negocio se vea coherente.",["Diseño de logo","Paleta de color","Tipografía de marca","Guía de uso","Versiones para redes"]],en:["Brand Identity","Logo, palette, typography and brand guide so your business looks consistent.",["Logo design","Color palette","Brand typography","Usage guide","Social media versions"]]},
+  {tag:"Web",price:0,es:["Landing Page","Una página de alto impacto para presentar un producto, servicio o evento. Diseño a medida y formulario de contacto.",["Diseño 100% a medida, no plantillas","Formulario de contacto / WhatsApp","Optimizada para móvil","Lista para anuncios y campañas"]],en:["Landing Page","A high-impact single page to present a product, service or event. Custom design and contact form.",["100% custom design, no templates","Contact / WhatsApp form","Mobile-optimized","Ad & campaign ready"]]},
+  {tag:"Web",price:0,es:["Sitio Corporativo","Web multipágina (inicio, servicios, nosotros, contacto). Ideal para empresas que quieren presencia profesional.",["Hasta 5–6 páginas","Diseño corporativo a medida","Secciones de servicios y equipo","Mapa, contacto y redes","SEO básico incluido"]],en:["Corporate Website","Multi-page site (home, services, about, contact). Ideal for businesses wanting a professional presence.",["Up to 5–6 pages","Custom corporate design","Services and team sections","Map, contact and social","Basic SEO included"]]},
+  {tag:"Web",price:0,es:["Blog / Portafolio","Espacio para publicar contenido o mostrar tu trabajo, con gestor de entradas y diseño editorial cuidado.",["Gestor de publicaciones","Diseño editorial a medida","Galería de proyectos","Categorías y búsqueda","Optimizado para compartir"]],en:["Blog / Portfolio","A space to publish content or showcase your work, with a post manager and refined editorial design.",["Post manager","Custom editorial design","Project gallery","Categories and search","Share-optimized"]]},
+  {tag:"E-commerce",price:0,es:["Tienda Online","E-commerce completo con catálogo, carrito, pasarela de pago y panel de administración.",["Catálogo de productos","Carrito y checkout","Pasarela de pago integrada","Panel de administración","Gestión de pedidos e inventario"]],en:["Online Store","Full e-commerce with catalog, cart, payment gateway and admin panel.",["Product catalog","Cart and checkout","Integrated payment gateway","Admin dashboard","Order & inventory management"]]},
+  {tag:"Reservas",price:0,es:["Sistema de Reservas / Citas","Web con agenda en línea: reservas, calendario, recordatorios y panel para tu negocio.",["Agenda y calendario online","Reserva de citas 24/7","Recordatorios automáticos","Panel para administrar citas","Ideal para spa, barbería, clínica"]],en:["Booking / Appointments","Site with online scheduling: booking, calendar, reminders and a dashboard for your business.",["Online agenda & calendar","24/7 appointment booking","Automatic reminders","Appointment admin panel","Great for spa, barber, clinic"]]},
+  {tag:"App",price:0,es:["Aplicación Web / PWA","Software a medida instalable: dashboards, gestión de clientes, inventario o procesos internos.",["Software a medida","Instalable (PWA)","Dashboards y reportes","Gestión de usuarios y roles","Funciona offline / móvil"]],en:["Web App / PWA","Custom installable software: dashboards, client management, inventory or internal processes.",["Custom-built software","Installable (PWA)","Dashboards and reports","User & role management","Works offline / mobile"]]},
+  {tag:"Marketing",price:0,es:["Manejo de Redes Sociales","Plan mensual de contenido, diseño de publicaciones, calendario y reportes.",["Plan mensual de contenido","Diseño de publicaciones","Calendario de publicación","Reportes de resultados","Respuesta a comentarios"]],en:["Social Media Management","Monthly content plan, post design, calendar and reports.",["Monthly content plan","Post design","Publishing calendar","Performance reports","Comment management"]]},
+  {tag:"Video",price:0,es:["Edición & Creación de Video","Reels, anuncios y videos para redes: edición, subtítulos, motion graphics y formato por plataforma.",["Edición de reels y anuncios","Subtítulos automáticos","Motion graphics","Formato por plataforma","Música y efectos"]],en:["Video Editing & Production","Reels, ads and social videos: editing, captions, motion graphics and per-platform formats.",["Reel & ad editing","Auto captions","Motion graphics","Per-platform formats","Music and effects"]]},
+  {tag:"Branding",price:0,es:["Identidad de Marca","Logo, paleta, tipografía y guía de marca para que tu negocio se vea coherente.",["Diseño de logo","Paleta de color","Tipografía de marca","Guía de uso","Versiones para redes"]],en:["Brand Identity","Logo, palette, typography and brand guide so your business looks consistent.",["Logo design","Color palette","Brand typography","Usage guide","Social media versions"]]},
   {tag:"SEO",price:0,es:["SEO & Mantenimiento","Optimización para buscadores, velocidad, actualizaciones y soporte continuo. Planes mensuales a la medida.",["Optimización SEO","Mejora de velocidad","Actualizaciones de contenido","Copias de seguridad","Soporte continuo"]],en:["SEO & Maintenance","Search optimization, speed, updates and ongoing support. Custom monthly plans.",["SEO optimization","Speed improvements","Content updates","Backups","Ongoing support"]]}
 ];
 
